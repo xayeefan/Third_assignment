@@ -1,0 +1,84 @@
+body{
+    background-color: #008080;
+}
+
+@font-face{
+    font-family: Windows;
+    src: url("./font/Windows\ Regular.ttf");
+}
+*{
+    padding: 0;
+    font-family: Windows;
+}
+
+h2{
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Windows,'Times New Roman';
+}
+
+.box{
+    position: relative;
+    left: 15px;
+    top: 5px;
+}
+
+.notepad{
+    position: relative;
+    top: -30px;
+    left: 15%;
+}
+
+.notepad img{
+    width: 880px;
+    height: 580px;
+}
+
+.image-content p{
+    position: absolute;
+    font-size: 18px;
+    left: 30px;
+    top: 60px;
+    width: 800px;
+}
+
+
+.dog img{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 730px;
+    top: 440px
+}
+
+.sidebar{
+    position: absolute;
+    top: 130px;
+    left: 1250px;
+}
+.sidebar div img{
+    width: 48px;
+    height: 48px;
+}
+.sidebar div p{
+    margin-top: 0px;
+    margin-left: -18px;
+    margin-bottom: 20px;
+}
+
+.button{
+    text-decoration: none;
+}
+
+.button:hover{
+    color: whitesmoke;
+}
+
+.box1 img{
+    position: fixed;
+    height: 40px;
+    width: 1450px;
+    bottom: -5px;
+    left: -5px;
+}

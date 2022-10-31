@@ -1,0 +1,133 @@
+body{
+    background-color: #008080;
+}
+
+@font-face{
+    font-family: Windows;
+    src: url("./font/Windows\ Regular.ttf");
+}
+*{
+    padding: 0;
+    font-family: Windows;
+}
+
+h2{
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Windows,'Times New Roman';
+}
+
+.box{
+    position: relative;
+    left: 15px;
+    top: 5px;
+}
+
+.notepad{
+    position: relative;
+    top: -95px;
+    left: 8%;
+}
+
+.notepad img{
+    width: 1080px;
+    height: 685px;
+}
+
+.image-content p{
+    position: absolute;
+    font-size: 18px;
+    left: 30px;
+    top: 60px;
+    width: 1000px;
+}
+
+.table1 img{
+    position: absolute;
+    width: 500px;
+    height: 180px;
+    left: 270px;
+    top: 202px;
+    box-shadow:3px 3px 12px gray;padding: 1px;
+}
+
+.image-content2 p{
+    position: absolute;
+    font-size: 18px;
+    left: 30px;
+    top: 370px;
+    width: 1020px;
+}
+
+.table2 img{
+    position: absolute;
+    width: 215px;
+    height: 150px;
+    left: 190px;
+    top: 463px;
+    box-shadow:3px 3px 12px gray;padding: 1px;
+}
+.table2 p{
+    position: absolute;
+    font-size: 15px;
+    left: 135px;
+    top: 610px;
+    width: 1100px;
+}
+
+.piechart img{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 620px;
+    top: 463px;
+    box-shadow:3px 3px 12px gray;padding: 1px;
+}
+.piechart p{
+    position: absolute;
+    font-size: 15px;
+    left: 660px;
+    top: 610px;
+    width: 1020px;
+}
+
+
+.dog img{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    left: 900px;
+    top: 520px
+}
+
+.sidebar{
+    position: absolute;
+    top: 130px;
+    left: 1250px;
+}
+.sidebar div img{
+    width: 48px;
+    height: 48px;
+}
+.sidebar div p{
+    margin-top: 0px;
+    margin-left: -18px;
+    margin-bottom: 20px;
+}
+
+.button{
+    text-decoration: none;
+}
+
+.button:hover{
+    color: whitesmoke;
+}
+
+.box1 img{
+    position: fixed;
+    height: 40px;
+    width: 1450px;
+    bottom: -5px;
+    left: -5px;
+}
